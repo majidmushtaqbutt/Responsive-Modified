@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MAQSTORE | Welcome to MAQSTORE Webportal</title>
+</head>
+
+<body>
+   <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <input type="checkbox" name="" id="check">
+
+                <div class="logo-container">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logomaq.jpg" width="125px"></a>
+                    </div>
+                </div>
+
+
+                <div class="search">
+
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+
+                </div>
+
+
+
+                <div class="nav-btn">
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="nav-link" style="--i: .8s">
+                                <a href="#">Products<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="product-collection.html">Hindware Division</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="product-details.html">Pidilite Division</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Kansai Nerolac Paint Division</a>
+
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Crompton Division</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-link" style="--i: 1s">
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-link" style="--i: 1.2s">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="nav-link" style="--i: 1.4s">
+                                <a href="#">Account<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">My Orders</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Change Password</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="account.html">Sign Out</a>
+
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="cart">
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                </div>
+                <div class="hamburger-menu-container">
+                    <div class="hamburger-menu">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobilesearchbar">
+        <div class="search">
+
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+
+        </div>
+    </div>
+   
+
+
+    <!------>
+    <!------- Account Page ------->
+    <div class="account-page">
+        <div class="account-container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/mainimg.jpg" width="100%">
+                </div>
+                <div class="col-5">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="loginform()">Login</span>
+                            <span onclick="registerform()">Register</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit"  class="btn">Login</button>
+                                <a href="">Forgot Password</a>
+                        </form>
+                        <form id="RegisterForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit"  class="btn">Register</button>                               
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+    <!------ Footer Section ----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white-maq-copy.png">
+                    <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - MAQ STORE</p>
+        </div>
+    </div>
+</body>
+<!----- JS for Account Login Register-->
+<script>
+    var LoginForm=document.getElementById("LoginForm");
+    var RegisterForm=document.getElementById("RegisterForm");
+    var Indicator=document.getElementById("Indicator");
+    function registerform(){
+        RegisterForm.style.transform="translateX(0px)";
+        LoginForm.style.transform="translateX(0px)";
+        Indicator.style.transform="translateX(100px)";
+    }
+    function loginform(){
+        RegisterForm.style.transform="translateX(300px)";
+        LoginForm.style.transform="translateX(300px)";
+        Indicator.style.transform="translateX(0px)";
+    }
+</script>
+</html>
